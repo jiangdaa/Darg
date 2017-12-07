@@ -1,7 +1,7 @@
 function darg(id) {
     var el = document.getElementById(id)
-    var disX = 0;
-    var disY = 0;
+    let disX = 0;
+    let disY = 0;
     el.onmousedown = function (ev) {
         disX = ev.clientX - el.offsetLeft;
         disY = ev.clientY - el.offsetTop;
